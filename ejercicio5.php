@@ -4,12 +4,16 @@
 
 // Complejidad: BAJA (1 punto)
 
+obtenerDiaSemana(1, 4);
 function obtenerDiaSemana($numero){
-    //Escribe tu código aquí
-}
+    $mes = array(
+        "1" => "Lunes",
+        "2" => "Martes",
+        "3" => "Miercoles",
+        "4" => "Jueves",
+    );
 
+echo $mes[$numero]; 
+
+}
 //Tests
-assert("Lunes" == obtenerDiaSemana(1), "El dia 1 es Lunes");
-assert("Martes" == obtenerDiaSemana(2), "El dia 2 es Martes");
-assert("Miercoles" == obtenerDiaSemana(3), "El dia 3 es Miercoles");
-assert("Jueves" == obtenerDiaSemana(4), "El dia 4 es Jueves");

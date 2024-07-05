@@ -4,9 +4,10 @@
 
 // Complejidad: MEDIA (2 puntos)
 
-function ordenarArreglo($numeros){
-    //Escribe tu código aquí
-
+function ordenarArreglo(...$numeros){
+    $arreglo = asort($numeros);
+    return $arreglo;
+    echo $arreglo;
 }
 
 //Tests
