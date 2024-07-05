@@ -8,8 +8,7 @@
 
 
 function encontrarPalabraMasLarga($cadena){
-    //Escribe tu código aquí
-
+    
 }
 
 //Tests

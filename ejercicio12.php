@@ -4,8 +4,21 @@
 
 // Complejidad: MEDIA (2 puntos)
 
-function calcularPromedioAprobados($calificaciones){
-    //Escribe tu código aquí
+function calcularPromedioAprobados(array $calificaciones){
+    $acum = 0;
+    
+    foreach ($calificaciones as $nro => $valor) {
+        $acum = $acum + $valor;
+    }
+    $acum = $acum / count($calificaciones);
+   echo $acum;
+
+    if ($calificaciones >= 6) {
+        echo "aprobado";
+    }
+    else{
+        echo "reprobado";
+    }
 
 }
 

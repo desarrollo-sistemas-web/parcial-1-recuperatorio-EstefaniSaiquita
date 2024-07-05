@@ -3,9 +3,17 @@
 // Ejercicio 8:  Crea una función llamada calcularPromedio que tome un arreglo de números como parámetro y devuelva el promedio de esos números.
 // Complejidad: BAJA (1 punto)
 
-function calcularPromedio($numeros){
-    //Escribe tu código aquí
+function calcularPromedio(...$numeros){
+    // $cont = 0;
+    // $acum = 0;
+    // for ($i=0; $i <= count($numeros) ; $i++) { 
+    //     $cont = $cont+1;
+    //     $acum = $acum + $numeros;
+    //     echo $acum;
+    // }
 
+   $suma = array_sum($numeros);
+   $suma / count($numeros);
 }
 
 //Tests

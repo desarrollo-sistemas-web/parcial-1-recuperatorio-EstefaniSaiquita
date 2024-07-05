@@ -4,7 +4,12 @@
 // Complejidad: BAJA (1 punto)
 
 function esCadenaVacia($cadena){
-    //Escribe tu código aquí
+    if ($cadena == " " && "") {
+        return true;
+    }
+    else {
+        return false;
+    }
 
 }
 
