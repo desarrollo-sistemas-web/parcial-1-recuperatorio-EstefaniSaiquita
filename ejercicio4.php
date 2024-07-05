@@ -9,7 +9,7 @@ function encontrarMaximo(...$numeros){
 }
 
 encontrarMaximo([1,2,3]);
-//Tests
+
 //assert(1 == encontrarMaximo([1]), "El maximo de [1] es 1");
 //assert(2 == encontrarMaximo([1,2]), "El maximo de [1,2] es 2");
 //assert(3 == encontrarMaximo([1,2,3]), "El maximo de [1,2,3] es 3");
